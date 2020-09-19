@@ -1,8 +1,10 @@
 # JINTFP
 Just in Need, Time Functional Pipeline.
 
-This package is designed to aid implementation of function pipeline design into arbitrary program.\
+This package is designed to aid implementation of Function Pipeline design into arbitrary program.\
+With simple three classes, convert your functions into Node and draw Pipeline to effectively chain those primitives. \
 For more detail and tutorial, please refer to short technical report on the topic : \
+https://github.com/grasshopperTrainer/JINTFP/blob/master/res/Introduction to JINT Function Pipeline.pdf
 
 ## Installation
 Use `pip` to install the package.  
@@ -22,6 +24,7 @@ class Adder(fp.NodeBody):
         super().__init__(a, b)
 
     def calculate(self, a, b):
+        print(f'adding {a}, {b}')
         return a + b
 
 
@@ -31,14 +34,13 @@ node1.in0 = node0.out0
 
 print(node0.out0)
 print(node1.out0)
-
 ```    
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.    
 <https://github.com/grasshopperTrainer/JINTFP>    
 
-## Alternative contect
+## Alternative contact
 For any questions :    
 <grasshoppertrainer@gmail.com>    
     
