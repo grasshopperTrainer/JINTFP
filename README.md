@@ -4,7 +4,7 @@ Just in Need, Time Functional Pipeline.
 This package is designed to aid implementation of Function Pipeline design into arbitrary program.\
 With simple three classes, convert your functions into Node and draw Pipeline to effectively chain those primitives. \
 For more detail and tutorial, please refer to short technical report on the topic : \
-https://github.com/grasshopperTrainer/JINTFP/blob/master/res/Introduction to JINT Function Pipeline.pdf
+https://github.com/grasshopperTrainer/JINTFP/blob/master/res/Introduction-to-JINT-Function-Pipeline.pdf
 
 ## Installation
 Use `pip` to install the package.  
