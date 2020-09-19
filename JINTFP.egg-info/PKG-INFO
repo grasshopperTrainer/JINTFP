@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: JINTFP
-Version: 0.1.0
+Version: 0.1.1
 Summary: Python package for creating node-based function pipeline.
 Home-page: https://github.com/grasshopperTrainer/JINTFP
 Author: grasshopperTrainer
@@ -12,7 +12,7 @@ Description: # JINTFP
         This package is designed to aid implementation of Function Pipeline design into arbitrary program.\
         With simple three classes, convert your functions into Node and draw Pipeline to effectively chain those primitives. \
         For more detail and tutorial, please refer to short technical report on the topic : \
-        https://github.com/grasshopperTrainer/JINTFP/blob/master/res/Introduction to JINT Function Pipeline.pdf
+        https://github.com/grasshopperTrainer/JINTFP/blob/master/res/Introduction-to-JINT-Function-Pipeline.pdf
         
         ## Installation
         Use `pip` to install the package.  

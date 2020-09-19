@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="JINTFP",
-    version="0.1.0",
+    version="0.1.1",
     author="grasshopperTrainer",
     author_email="grasshoppertrainer@gmail.com",
     description="Python package for creating node-based function pipeline.",
